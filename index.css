@@ -1,0 +1,102 @@
+/* .box{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width : 400px){
+    .box{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+} */
+
+/* Tablets (Android tablets, iPads, etc.) */
+@media (max-width: 1024px) and (min-width: 601px) {
+  body {
+    font-size: 16px;
+    padding: 15px;
+    background-color: #e0f7fa;
+  }
+
+  #maincontent {
+    flex-direction: column;
+  }
+
+  #img {
+    width: 200px;
+    margin: 20px auto;
+    float: none;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+  }
+
+  #Skills {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+/* Phones (Android & iPhones) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #ffe0b2;
+  }
+
+  #maincontent {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  #img {
+    width: 150px;
+    margin: 10px auto;
+    float: none;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  #Skills {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .Skill {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .vegetablepage {
+    padding-left: 20px;
+  }
+
+  .vegetablepage summary {
+    font-size: 30px;
+  }
+}
